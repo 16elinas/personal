@@ -4,7 +4,7 @@
 }
 
 .name {
-  font-size: 72pt;
+  font-size: 60pt;
   font-family: 'Baskervville', serif;
   margin-bottom: 20px;
 }
@@ -21,10 +21,27 @@
 
 .link {
   flex: none;
-  order: 3;
   align-self: center;
-  margin: 50px 0px;
+  margin: 0px 50px 0px 0px;
 }
+
+#about {
+  order: 0;
+}
+
+#resume {
+  order: 1;
+}
+
+#projects {
+  order: 2;
+}
+
+#contact {
+  order: 3;
+}
+
+
 
 a {
   text-decoration: none;
