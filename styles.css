@@ -1,0 +1,38 @@
+.content {
+  padding: 141px 8%;
+  max-width: 1000px;
+}
+
+.name {
+  font-size: 72pt;
+  font-family: 'Baskervville', serif;
+  margin-bottom: 20px;
+}
+
+.links {
+  font-size: 28px;
+  font-family: 'IBM Plex Mono', monospace;
+  position: static;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.link {
+  flex: none;
+  order: 3;
+  align-self: center;
+  margin: 50px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.about {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  font-size: 22px;
+}
